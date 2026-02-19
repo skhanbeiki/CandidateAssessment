@@ -57,5 +57,5 @@ dependencies {
     implementation(libs.androidx.lifecycle.viewmodel.compose)
     implementation(libs.lifecycle.runtime.compose)
     implementation(libs.kotlinx.coroutines.android)
-
+    implementation(libs.androidx.navigation.compose)
 }
