@@ -5,14 +5,13 @@ import java.math.BigDecimal
 
 /**
  * وضعیت رابط کاربری فاکتور.
- * Represents the UI state of the invoice.
  *
- * @property items لیست آیتم‌های فاکتور
- * @property customerName نام مشتری
- * @property customerPhone شماره تماس مشتری
- * @property totalBeforeDiscount جمع کل قبل از تخفیف
- * @property totalDiscount جمع کل تخفیف
- * @property finalTotal مبلغ قابل پرداخت نهایی
+ *  items لیست آیتم‌های فاکتور
+ *  customerName نام مشتری
+ *  customerPhone شماره تماس مشتری
+ *  totalBeforeDiscount جمع کل قبل از تخفیف
+ *  totalDiscount جمع کل تخفیف
+ *  finalTotal مبلغ قابل پرداخت نهایی
  */
 data class InvoiceUiState(
     val items: List<InvoiceItem> = emptyList(),
