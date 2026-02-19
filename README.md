@@ -4,27 +4,11 @@
 
 ## ویژگی‌ها
 
-*   **مدیریت آیتم‌ها:** افزودن، ویرایش و حذف آیتم‌های فاکتور.
-*   **مشخصات مشتری:** امکان ثبت نام و شماره تماس مشتری.
-*   **محاسبات دقیق:** محاسبه خودکار جمع کل، تخفیف و مبلغ نهایی با دقت بالا (BigDecimal).
-*   **فرمت تومان:** نمایش مبالغ با فرمت استاندارد تومان (جداکننده ۳ رقمی).
-*   **محاسبه دوطرفه تخفیف:** امکان وارد کردن تخفیف به صورت مبلغ یا درصد و محاسبه خودکار دیگری.
-*   **اعتبارسنجی:** جلوگیری از ثبت مقادیر نامعتبر (مانند تخفیف بیشتر از مبلغ کل).
-*   **رابط کاربری مدرن:** طراحی شده با Material 3 و Jetpack Compose.
-
-## تکنولوژی‌های استفاده شده
-
-*   **Language:** Kotlin
-*   **UI Toolkit:** Jetpack Compose (Material 3)
-*   **Architecture:** MVVM (Model-View-ViewModel)
-*   **State Management:** StateFlow
-*   **Navigation:** Jetpack Navigation Compose
-
 ## تصاویر محیط برنامه (Screenshots)
 
 ### صفحه اصلی (لیست آیتم‌ها و مشخصات مشتری)
-![Main Screen](screenshots/screen1.png)
+![Main Screen](screenshots/screen1.jpg)
 
 ### صفحه افزودن/ویرایش آیتم
-![Add/Edit Screen](screenshots/screen2.png)
+![Add/Edit Screen](screenshots/screen2.jpg)
 
